@@ -4,7 +4,6 @@ import classes from './Layout.css';
 
 const layout = (props) => (
     <Aux>
-      <div>ToolBar slidebar</div>
         <main className={classes.Content}>
             {props.children}
         </main>
